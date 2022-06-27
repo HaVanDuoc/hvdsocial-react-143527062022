@@ -3,7 +3,7 @@ import { Feed, Rightbar, Sidebar, Topbar } from "../components/";
 
 const DefaultLayout = ({ children }) => {
     return (
-        <div id="defaultLayout">
+        <div id="hvd_DefaultLayout">
             <Topbar />
             <Sidebar />
             <Feed />
