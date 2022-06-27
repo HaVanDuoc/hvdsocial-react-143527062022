@@ -1,8 +1,14 @@
 import React from 'react'
+import { Feed, Rightbar, Sidebar } from '../../components/Layouts/components'
+import './Home.scss'
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <div className='homePage'>
+            <Sidebar />
+            <Feed />
+            <Rightbar />
+        </div>
     )
 }
 

@@ -3,7 +3,7 @@
 
 :root {
     --main-color: #1e90ff;
-    --font-color: #3a3a3a;
+    --font-color: #050505;
     --hover-color: #ebe3e3ad;
 }
 
@@ -16,9 +16,30 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--font-color);
-    background-color: #f9f5f5;
+    background-color: #f0f2f5;
 }
 
 a {
     text-decoration: none;
+}
+
+// Scroll
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dfdede;
+    border: 5px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    // background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #bbb7b7;
+
 }

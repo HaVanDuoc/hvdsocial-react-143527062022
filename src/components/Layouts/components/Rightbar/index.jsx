@@ -2,7 +2,7 @@ import React from 'react'
 
 const Rightbar = () => {
     return (
-        <div>Rightbar</div>
+        <div id='hvd_Rightbar'>Rightbar</div>
     )
 }
 

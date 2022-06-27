@@ -1,13 +1,12 @@
 import React from "react";
-import { Feed, Rightbar, Sidebar, Topbar } from "../components/";
+import "./DefaultLayout.scss";
+import { Topbar } from "../components/";
 
 const DefaultLayout = ({ children }) => {
     return (
         <div id="hvd_DefaultLayout">
             <Topbar />
-            <Sidebar />
-            <Feed />
-            <Rightbar />
+            {children}
         </div>
     );
 };

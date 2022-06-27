@@ -1,0 +1,15 @@
+#hvd_DefaultLayout {
+    // min-height: 100vh;
+
+    #hvd_Sidebar {
+        flex: 1;
+    }
+
+    #hvd_Feed {
+        flex: 2.5;
+    }
+
+    #hvd_Rightbar {
+        flex: 1;
+    }
+}

@@ -7,11 +7,12 @@ function App() {
         <Router>
             <div className="__havanduoc">
                 <Routes>
-                    {publicRoutes.map((route) => {
+                    {publicRoutes.map((route, index) => {
                         const Layout = DefaultLayout;
                         const Page = route.component;
                         return (
                             <Route
+                                key={index}
                                 path={route.path}
                                 element={
                                     <Layout>
